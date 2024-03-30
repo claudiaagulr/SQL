@@ -43,3 +43,7 @@ order by price desc
 Select sum(price)
 from superstore;
 
+#How many air purifiers are in stock?
+select stock_quantity
+from superstore
+where item_name="Air Purifier";
