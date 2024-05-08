@@ -97,7 +97,7 @@ CASE WHEN maternity_leave_weeks>=12 THEN "EXCELLENT"
 WHEN maternity_leave_weeks>=10 then "ABOVE AVERAGE"
 when maternity_leave_weeks>=8 then "AVERAGE"
 else "BELOW AVERAGE"
-END as maternity_benefits
+END as "maternity_benefits"
 FROM fortune_companies
 GROUP BY maternity_benefits;
 
